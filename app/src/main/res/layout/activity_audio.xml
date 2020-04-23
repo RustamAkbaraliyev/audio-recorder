@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".AudioActivity">
+
+    <ImageView
+        android:id="@+id/record"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_microphone_on"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_play"
+        android:contentDescription="@string/todo" />
+
+</LinearLayout>
